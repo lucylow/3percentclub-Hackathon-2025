@@ -89,12 +89,4 @@ Each Teachable Machine model is used in the AutoSight DAO web/mobile app for rea
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image"></script>
 
 
-======================================================================
-Github repo w/ documentation
-
-what you did
-
-how you did it
-
-what challenges you faced
 
