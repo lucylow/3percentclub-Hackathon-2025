@@ -1,7 +1,7 @@
 # AutoSight DAO 
 ```
-autosight-dao/
-├── teachable-models/
+3percentclub-Hackathon-2025/
+├── A.I./
 │   ├── model-1-part-a123/
 │   │   ├── model.json
 │   │   ├── metadata.json
@@ -12,7 +12,7 @@ autosight-dao/
 │   └── ...
 ├── web-app/
 │   └── (your Bubble front-end export, or React wrapper if applicable)
-├── smart-contracts/
+├── web3/
 │   └── autosightDAO.sol (or DAO .json ABI)
 ├── README.md
 ```
