@@ -1,20 +1,49 @@
 # AutoSight DAO 
 ```
 3percentclub-Hackathon-2025/
-├── A.I./
-│   ├── model-1-part-a123/
+├── ai-models/
+│   ├── part-a123-detection/
+│   │   ├── model.json            # Teachable Machine model config
+│   │   ├── metadata.json         # Labels, classnames, description
+│   │   ├── weights.bin           # Neural network weights
+│   │   └── README.md             # Summary of what the model detects (e.g. "Surface fractures in Part A123")
+│   ├── chip-fault-detection/
 │   │   ├── model.json
 │   │   ├── metadata.json
 │   │   ├── weights.bin
-│   │   └── README.md
-│   ├── model-2-chip-fault/
-│   │   └── ... (same files)
-│   └── ...
-├── web-app/
-│   └── (your Bubble front-end export, or React wrapper if applicable)
+│   │   └── README.md             # Describes how the AI flags overheating in chips
+│   └── motor-vibration-anomaly/
+│       ├── model.json
+│       ├── metadata.json
+│       ├── weights.bin
+│       └── README.md             # Covers detection of out-of-spec vibration patterns
+│
+├── frontend/
+│   ├── bubble-ui-export/         # AutoSight DAO frontend (Bubble export or React wrapper)
+│   │   └── index.html
+│   └── assets/
+│       └── hero-banner.png       # Generated preview banner for pitch/demo
+│
 ├── web3/
-│   └── autosightDAO.sol (or DAO .json ABI)
-├── README.md
+│   ├── contracts/
+│   │   ├── AutoSightDAO.sol      # Solidity DAO contract (proposal, vote, storage)
+│   │   ├── Storage.sol           # Data storage layer for proposals/anomalies
+│   │   ├── Ballot.sol            # Handles DAO voting mechanisms
+│   │   └── Owner.sol             # Admin controls (summoner, shaman logic)
+│   ├── abi/
+│   │   └── AutoSightDAO.json     # ABI file for Web3.js or Ethers.js integration
+│   ├── scripts/
+│   │   └── deploy.js             # Deployment script (for Ganache or Sepolia)
+│   └── README.md                 # Setup, Ganache usage, DAO invocation guide
+│
+├── public/
+│   └── sample-logs/
+│       ├── anomaly-001.json      # Simulated detection event
+│       └── proposal-001.json     # Proposal linked to AI detection
+│
+├── README.md                     # Main project documentation (Problem, Solution, Stack, Demo, What’s Next)
+└── LICENSE
+
 ```
 
 # Artifical Intelligence Models
