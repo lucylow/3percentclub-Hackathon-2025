@@ -1,4 +1,18 @@
 # AutoSight DAO 
+
+### 🔐 All decisions tied to on-chain digital twin NFTs
+
+Every decision made by the DAO—whether it's a production pause, recall, or increased monitoring—is permanently linked to a specific, uniquely identifiable part via its Digital Twin NFT on the blockchain.
+
+- Every part = NFT: Each physical component in the manufacturing line is represented by a Digital Twin NFT, containing its full history—anomalies, proposals, votes, and resolutions.
+- Tamper-proof audit trail: When a decision is made (e.g. “Recall Part #F678”), that action is logged and anchored to the NFT representing that part. You can always look up its immutable decision log.
+- Shared source of truth: Engineers, regulators, and suppliers don’t need to cross-reference spreadsheets or emails. The NFT itself is the source of truth—what happened, when, why, and who voted.
+- Compliance by design: This is critical for ISO 26262, IATF 16949, and other safety standards—ensuring every decision is verifiable, auditable, and cryptographically linked to the exact part in question.
+
+
+
+
+
 ```
 3percentclub-Hackathon-2025/
 ├── ai-models/
