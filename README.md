@@ -1,5 +1,8 @@
 # AutoSight DAO "Reclaiming the Machine: A Future in Motion"
 
+### AI-powered automotive issue detection and management platform with blockchain-based governance for manufacturing excellence.
+
+
 ```
 3percentclub-Hackathon-2025/
 ├── ai-models/
