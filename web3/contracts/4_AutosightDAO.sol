@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-/// @title AutoSightDAO - A governance contract for AI-powered automotive anomaly resolution.
+/// @title AutoSightDAO - A governance contract for AI-powered automotive anomaly resolution. 
 
 contract AutoSightDAO {
     struct Proposal {
