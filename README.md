@@ -1,7 +1,5 @@
 # AutoSight DAO "Reclaiming the Machine: A Future in Motion"
 
-### Track 3: “Cowboy Coder” celebrates projects that defy categories—just like Beyoncé’s Cowboy Carter reclaims country music’s Black roots by fusing genres, challenging power structures, and rewriting cultural narratives. our project does the same, but in automotive manufacturing and Web3/AI.
-
 ```
 3percentclub-Hackathon-2025/
 ├── ai-models/
