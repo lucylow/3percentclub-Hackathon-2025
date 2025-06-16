@@ -46,6 +46,20 @@ https://teachablemachine.withgoogle.com/models/GSDHiFw9E/
 
 https://teachablemachine.withgoogle.com/models/SctOqQ0h9/
 
+# AI Integration
+
+Each Teachable Machine model is used in the AutoSight DAO web/mobile app for real-time anomaly detection.
+
+1. A webcam scans the part on the factory line.
+2. The Teachable Machine model returns the most probable class (e.g., Cracked).
+3. If anomaly detected → auto-generate DAO proposal.
+4. Result + confidence score is written on-chain, tied to NFT of the part.
+
+<!-- index.html -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image"></script>
+
+
 ======================================================================
 Github repo w/ documentation
 
